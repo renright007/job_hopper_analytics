@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: stg_cleaned_salaries
+    columns:
+      - name: id
+        tests: [not_null, unique]
+
+  - name: stg_cleaned_locations
+    columns:
+      - name: id
+        tests: [not_null, unique]
