@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: job_hopper
+    database: otter-project-350503
+    schema: job_hopper
+    tables:
+      - name: jobs
+      - name: users

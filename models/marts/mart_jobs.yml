@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: mart_jobs
+    columns:
+      - name: job_id
+        tests:
+          - not_null
+          - unique
